@@ -1,52 +1,52 @@
-#text-head{
-	font-family: 'Roboto', sans-serif;
+#text-head {
+    font-family: $custom-font-family;
 }
 
 /* tag titles */
 .swagger-section .swagger-ui-wrap ul#resources li.resource div.heading h2 a {
-	font-family: 'Arvo', serif;
+    font-family: $custom-font-family;
 }
 
 .swagger-section .swagger-ui-wrap ul#resources li.resource div.heading h2 {
-  font-family: 'Arvo', serif;
+    font-family: $custom-font-family;
 }
 
 .title1 {
-	font-family: 'Vollkorn', serif;
+    font-family: $custom-font-family;
 }
 
 .text-faded {
-	font-family: 'Vollkorn', serif;
+    font-family: $base-font-family;
 }
 
-.section-heading{
-	font-family: 'Vollkorn', serif;
+.section-heading {
+    font-family: $custom-font-family;
 }
 
 .description li {
-	font-family: 'Vollkorn', serif;
+    font-family: $base-font-family;
 }
 
 .curl {
-	font-family: "Anonymous Pro", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
+    font-family: $code-font-family;
 }
 
 .curl_title {
-  	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: $custom-font-family;
 }
 
 .markdown p {
-	font-family: 'Arvo', serif;
+    font-family: $base-font-family;
 }
 
 .swagger-section .swagger-ui-wrap .code {
-	font-family: 'Arvo',serif;
+    font-family: $base-font-family;
 }
 
 .swagger-section .swagger-ui-wrap b {
-	font-family: 'Arvo',serif;
+    font-family: $base-font-family;
 }
 
 .navbar-default .nav > li .details {
-	font-family: 'Open Sans', sans-serif;
+    font-family: $base-font-family;
 }

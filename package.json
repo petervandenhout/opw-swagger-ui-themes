@@ -1,7 +1,7 @@
 {
     "name": "opw-swagger-ui-themes",
     "description": "Themes for Swagger UI",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "keywords": [ "theme", "swagger", "swagger UI", "ui", "rtd", "readtthedocs" ],
     "homepage": "https://github.com/petervandenhout/opw-swagger-ui-themes",
     "bugs": {

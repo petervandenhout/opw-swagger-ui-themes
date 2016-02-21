@@ -1,7 +1,19 @@
 .swagger-section {
+    background-color: $background-color;
+    min-height: 100%;
 
     .swagger-ui-wrap {
+        background-color: transparent;
+        min-height: 100%;
+        padding: 1.618em 3.236em;
+        padding-top: 0.809em;
+        background-color:#fcfcfc;
+
         font-family: $base-font-family;
+        
+        .info .info_title {
+            font-family: $custom-font-family;
+        }
 
         b, strong {
             font-family: $base-font-family;

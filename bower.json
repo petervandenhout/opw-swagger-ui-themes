@@ -1,6 +1,6 @@
 {
     "name": "opw-swagger-ui-themes",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "homepage": "https://github.com/petervandenhout/opw-swagger-ui-themes",
     "author": "Peter van den Hout <petervandenhout@outlook.com>",
     "description": "Themes for Swagger UI",
@@ -21,10 +21,14 @@
         "node_modules",
         "bower_components",
         "test",
-        "tests"
+        "tests",
+        "bower.json",
+        "package.json",
+        "node_modules",
+        "bower_components",
+        "src"
     ],
-    "dependencies": {
-    },
     "devDependencies": {
+        "wyrm": "~0.0.x"
     }
 }

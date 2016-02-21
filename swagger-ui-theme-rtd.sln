@@ -3,18 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "swagger-ui-themes", ".", "{EC81A0B4-6C9A-4E99-86F1-4F072BA7F61D}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "swagger-ui-theme-rtd", ".", "{EC81A0B4-6C9A-4E99-86F1-4F072BA7F61D}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_42124"
-		Debug.AspNetCompiler.PhysicalPath = "..\swagger-ui-themes\"
+		Debug.AspNetCompiler.PhysicalPath = "..\swagger-ui-theme-rtd\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_42124\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_42124"
-		Release.AspNetCompiler.PhysicalPath = "..\swagger-ui-themes\"
+		Release.AspNetCompiler.PhysicalPath = "..\swagger-ui-theme-rtd\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_42124\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"

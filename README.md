@@ -1,6 +1,6 @@
 ## Swagger UI Themes
 ---
-*Version 1.0.0*
+*Version 0.0.1*
 
 A set of themes for Swagger UI:
 
@@ -12,12 +12,15 @@ You can find the Swagger UI project on GitHub [here](https://github.com/swagger-
 
 Download the swagger-ui-themes project and place the desired stylesheet into the source of your swagger-ui html.
 
-In the `<head>` of your html, reference the location to your [theme].css
-
-Make sure to either remove/comment out the link to `screen.css` or load the desired theme after to override the default Swagger UI styles.
+In the `<head>` of your html, reference the location to your [theme].css. Make sure to load the theme after `screen.css` to override the default Swagger UI styles.
 
 ```html
-<link rel="stylesheet" href="path/to/theme-rtd.css">
+<head>
+    ...after screen.css...
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" rel="stylesheet" type="text/css">
+    <link href='path/to/theme-rtd.css' media='screen' rel='stylesheet' type='text/css' />
+    ...
+</head>
 ```
 #### Install with Bower
 
