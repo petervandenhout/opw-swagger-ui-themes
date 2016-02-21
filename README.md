@@ -1,10 +1,10 @@
 ## ReadTheDocs Theme for Swagger UI
 ---
-*Version 0.0.2*
+*Version 0.0.3*
 
 A ReadTheDocs theme for Swagger UI.
 
-![ReadTheDocs Screenshot](screenshots/theme-rtd.png)
+![ReadTheDocs Screenshot](https://github.com/petervandenhout/swagger-ui-theme-rtd/screenshots/theme-rtd.png)
 
 You can find the Swagger UI project on GitHub [here](https://github.com/swagger-api/swagger-ui).
 
@@ -34,4 +34,4 @@ If you want to add theme ideas or other fixes/changes to how the package works, 
 
 ## License
 
-- Code licensed under [MIT License](https://github.com/petervandenhout/swagger-ui-themes/LICENSE)
+- Code licensed under [MIT License](https://github.com/petervandenhout/swagger-ui-theme-rtd/LICENSE)
