@@ -1,5 +1,6 @@
 .swagger-section {
     background-color: $background-color;
+    color: $text-color;
     min-height: 100%;
 
     .swagger-ui-wrap {
@@ -17,6 +18,10 @@
 
         b, strong {
             font-family: $base-font-family;
+        }
+
+        p{
+            color: $text-color;
         }
 
         pre {
@@ -64,8 +69,10 @@
                     li.endpoint {
                         ul.operations {
                             li.operation {
-
                                 div.content {
+                                    div.sandbox_header a {
+                                        padding: 6px 12px 8px 12px;
+                                    }
                                     div.response {
                                         div.block {
                                             pre {

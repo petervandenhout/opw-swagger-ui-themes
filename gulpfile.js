@@ -16,7 +16,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('cssnano', function () {
-    return gulp.src(config.build + 'theme-rtd.css')
+    gulp.src(config.build + 'theme-rtd.css')
         .pipe(cssnano().on('error', handleErrors))
         .pipe(rename('theme-rtd.min.css'))
         .pipe(gulp.dest(config.build));
