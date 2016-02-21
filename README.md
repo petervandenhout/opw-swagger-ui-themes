@@ -37,4 +37,4 @@ If you want to add theme ideas or other fixes/changes to how the package works, 
 
 ## License
 
-- Code licensed under [MIT License](https://github.com/petervandenhout/swagger-ui-theme-rtd/LICENSE)
+- Code licensed under [MIT License](https://github.com/petervandenhout/swagger-ui-theme-rtd/blob/master/LICENSE)
