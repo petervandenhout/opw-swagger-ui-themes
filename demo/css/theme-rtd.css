@@ -1,0 +1,297 @@
+/*
+    Read The Docs Theme for Swagger UI
+    Version: 0.0.1
+    Author: Peter van den Hout
+    Url: https://github.com/petervandenhout/opw-swagger-ui-themes
+
+    <head>
+        ...after screen.css...
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" rel="stylesheet" type="text/css">
+        <link href='path/to/theme-rtd.css' media='screen' rel='stylesheet' type='text/css' />
+    </head>
+
+    Swagger UI Version: 2.1.4
+    Swagger UI: https://github.com/swagger-api/swagger-ui 
+*/
+/*$font-awesome-dir: "../font/";
+$static-img: "../img/";*/
+.swagger-section {
+  background-color: #edf0f2;
+  color: #404040;
+  min-height: 100%; }
+  .swagger-section .swagger-ui-wrap {
+    background-color: transparent;
+    min-height: 100%;
+    padding: 1.618em 3.236em;
+    padding-top: 0.809em;
+    background-color: #fcfcfc;
+    font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    /* JSONEditor specific styling */ }
+    .swagger-section .swagger-ui-wrap .info .info_title {
+      font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif; }
+    .swagger-section .swagger-ui-wrap b, .swagger-section .swagger-ui-wrap strong {
+      font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif; }
+    .swagger-section .swagger-ui-wrap p {
+      color: #404040; }
+    .swagger-section .swagger-ui-wrap pre {
+      font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+    .swagger-section .swagger-ui-wrap .model-signature {
+      font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif; }
+    .swagger-section .swagger-ui-wrap .markdown p code, .swagger-section .swagger-ui-wrap .markdown li code {
+      font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+    .swagger-section .swagger-ui-wrap .editor_holder {
+      font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+    .swagger-section .swagger-ui-wrap h1 {
+      font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif; }
+    .swagger-section .swagger-ui-wrap .code {
+      font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+    .swagger-section .swagger-ui-wrap .markdown pre {
+      font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+    .swagger-section .swagger-ui-wrap ul#resources {
+      font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+      font-size: 0.9em; }
+      .swagger-section .swagger-ui-wrap ul#resources li.resource div.heading h2 {
+        font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif; }
+      .swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation div.content div.sandbox_header a {
+        padding: 6px 12px 8px 12px; }
+      .swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation div.content div.response div.block pre {
+        font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+    .swagger-section .swagger-ui-wrap p#colophon {
+      font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif; }
+    .swagger-section .swagger-ui-wrap .markdown ol, .swagger-section .swagger-ui-wrap .markdown ul {
+      font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif; }
+
+#text-head {
+  font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif; }
+
+/* tag titles */
+.swagger-section .swagger-ui-wrap ul#resources li.resource div.heading h2 a {
+  font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif; }
+
+.swagger-section .swagger-ui-wrap ul#resources li.resource div.heading h2 {
+  font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif; }
+
+.title1 {
+  font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif; }
+
+.text-faded {
+  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif; }
+
+.section-heading {
+  font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif; }
+
+.description li {
+  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif; }
+
+.curl {
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+
+.curl_title {
+  font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif; }
+
+.markdown p {
+  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif; }
+
+.swagger-section .swagger-ui-wrap .code {
+  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif; }
+
+.swagger-section .swagger-ui-wrap b {
+  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif; }
+
+.navbar-default .nav > li .details {
+  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif; }
+
+h1, h2, h3, h4, h5, h6, legend {
+  margin-top: 0;
+  font-weight: 700;
+  font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif; }
+
+button, input {
+  line-height: normal; }
+
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline; }
+
+input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline; }
+
+input {
+  line-height: normal; }
+
+input[type="text"], input[type="password"],
+input[type="email"], input[type="url"],
+input[type="date"], input[type="month"], input[type="time"],
+input[type="datetime"], input[type="datetime-local"],
+input[type="week"], input[type="number"],
+input[type="search"], input[type="tel"],
+input[type="color"] {
+  -webkit-appearance: none;
+  /* padding: 6px; */
+  display: inline-block;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 0;
+  -webkit-transition: border 0.3s linear;
+  -moz-transition: border 0.3s linear;
+  transition: border 0.3s linear; }
+
+input[type=submit],
+button {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+  cursor: pointer;
+  line-height: normal;
+  -webkit-appearance: button;
+  *overflow: visible; }
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+button[disabled] {
+  cursor: default; }
+
+.http_method a.toggleOperation,
+a.response_hider,
+input[type=submit],
+button, #explore {
+  display: inline-block;
+  border-radius: 2px;
+  line-height: normal;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+  font-size: 100%;
+  padding: 6px 12px 8px 12px;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #27AE60;
+  text-decoration: none;
+  font-weight: normal;
+  font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
+  box-shadow: 0px 1px 2px -1px rgba(255, 255, 255, 0.5) inset, 0px -2px 0px 0px rgba(0, 0, 0, 0.1) inset;
+  outline-none: false;
+  vertical-align: middle;
+  *display: inline;
+  zoom: 1;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear; }
+
+.http_method a.toggleOperation:hover,
+input[type=submit]:hover,
+button:hover, #explore:hover {
+  background: #2cc36b;
+  color: #fff; }
+
+.http_method a.toggleOperation:focus,
+input[type=submit]:focus,
+button:focus, #explore:focus {
+  background: #2cc36b;
+  outline: 0; }
+
+.http_method a.toggleOperation:active,
+input[type=submit]:active,
+button:active, #explore:active {
+  box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.05) inset, 0px 2px 0px 0px rgba(0, 0, 0, 0.1) inset;
+  padding: 8px 12px 6px 12px; }
+
+.http_method a.toggleOperation:visited,
+input[type=submit]:visited,
+button:visited, #explore:visited {
+  color: #fff; }
+
+.http_method a.toggleOperation:disabled,
+input[type=submit]:disabled,
+button:disabled, #explore:disabled {
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  filter: alpha(opacity=40);
+  opacity: 0.4;
+  cursor: not-allowed;
+  box-shadow: none; }
+
+.http_method a.toggleOperation::-moz-focus-inner,
+input[type=submit]::-moz-focus-inner,
+button::-moz-focus-inner, #explore::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+#explore,
+.btn-neutral {
+  background-color: #f3f6f6 !important;
+  color: #404040 !important; }
+
+#explore:hover,
+.btn-neutral:hover {
+  background-color: #e5ebeb !important;
+  color: #404040; }
+
+#explore:visited,
+.btn-neutral:visited {
+  color: #404040 !important; }
+
+input[type=submit],
+.btn-info {
+  background-color: #2980B9 !important; }
+
+input[type=submit]:hover,
+.btn-info:hover {
+  background-color: #2e8ece !important; }
+
+a.response_hider,
+.btn-link {
+  background-color: transparent !important;
+  color: #2980B9;
+  box-shadow: none;
+  border-color: transparent !important; }
+
+a.response_hider:hover,
+.btn-link:hover {
+  background-color: transparent !important;
+  color: #409ad5 !important;
+  box-shadow: none; }
+
+a.response_hider:active,
+.btn-link:active {
+  background-color: transparent !important;
+  color: #409ad5 !important;
+  box-shadow: none; }
+
+a.response_hider:visited,
+.btn-link:visited {
+  color: #9B59B6; }
+
+.swagger-section #header {
+  padding: 0;
+  background-color: #2980B9; }
+  .swagger-section #header #logo {
+    background: none;
+    color: #fcfcfc;
+    font-size: 32px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0; }
+  .swagger-section #header .swagger-ui-wrap {
+    min-height: 20px;
+    background-color: transparent;
+    padding: 1.618em; }
+    .swagger-section #header .swagger-ui-wrap input[type=submit] {
+      border: 1px solid #ccc; }
+  .swagger-section #header #api_selector .input input[type=text] {
+    border-radius: 50px;
+    padding: 6px 12px;
+    border-color: #2980B9; }

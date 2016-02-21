@@ -1,6 +1,6 @@
 ## ReadTheDocs Theme for Swagger UI
 ---
-*Version 0.0.3*
+*Version 0.0.4*
 
 A ReadTheDocs theme for Swagger UI.
 

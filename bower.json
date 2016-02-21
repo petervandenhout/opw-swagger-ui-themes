@@ -1,6 +1,6 @@
 {
     "name": "swagger-ui-theme-rtd",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "homepage": "https://github.com/petervandenhout/swagger-ui-theme-rtd",
     "author": "Peter van den Hout <petervandenhout@outlook.com>",
     "description": "ReadTheDocs Theme for Swagger UI",
@@ -24,6 +24,7 @@
         "screenshots",
         "tests",
         "lib",
+        "demo",
         "package.json",
         "node_modules",
         "bower_components",
@@ -32,6 +33,7 @@
         "*.js"
     ],
     "devDependencies": {
-        "wyrm": "~0.0.x"
+        "wyrm": "^1.0.9",
+        "swagger-ui": "^2.1.4"
     }
 }
