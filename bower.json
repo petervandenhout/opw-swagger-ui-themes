@@ -1,0 +1,30 @@
+{
+    "name": "opw-swagger-ui-themes",
+    "version": "1.0.0",
+    "homepage": "https://github.com/petervandenhout/swagger-ui-themes",
+    "author": "Peter van den Hout <petervandenhout@outlook.com>",
+    "description": "Themes for Swagger UI",
+    "main": [
+        "dist/*.css"
+    ],
+    "keywords": [
+        "theme",
+        "swagger",
+        "swagger UI",
+        "ui",
+        "rtd",
+        "readtthedocs"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {        
+    },
+    "devDependencies": {        
+    }
+}

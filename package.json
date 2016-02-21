@@ -1,0 +1,31 @@
+{
+    "name": "opw-swagger-ui-themes",
+    "description": "Themes for Swagger UI",
+    "version": "1.0.0",
+    "keywords": [ "theme", "swagger", "swagger UI", "ui", "rtd", "readtthedocs" ],
+    "homepage": "https://github.com/petervandenhout/swagger-ui-themes",
+    "bugs": {
+        "url": "https://github.com/petervandenhout/swagger-ui-themes/issues"
+    },
+    "author": {
+        "name": "Peter van den Hout",
+        "web": "https://twitter.com/petervandenhout"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/petervandenhout/swagger-ui-themes.git"
+    },
+    "contributors": [
+    ],
+    "license": "(MIT)",
+    "dependencies": {
+    },
+    "devDependencies": {
+        "bower": "1.7.2",
+        "gulp": "3.9.0",
+        "gulp-sass": "2.1.1"
+    },
+    "engines": {
+        "node": ">=0.10.3"
+    }
+}
