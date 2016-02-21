@@ -1,16 +1,16 @@
-## Swagger UI Themes
+## ReadTheDocs Theme for Swagger UI
 ---
 *Version 0.0.1*
 
-A set of themes for Swagger UI:
+A ReadTheDocs theme for Swagger UI.
 
-- Read The Docs
+![ReadTheDocs Screenshot](screenshots/theme-rtd.png)
 
 You can find the Swagger UI project on GitHub [here](https://github.com/swagger-api/swagger-ui).
 
 ## Getting started
 
-Download the swagger-ui-themes project and place the desired stylesheet into the source of your swagger-ui html.
+Download the swagger-ui-theme-rtd project and place the desired stylesheet into the source of your swagger-ui html.
 
 In the `<head>` of your html, reference the location to your [theme].css. Make sure to load the theme after `screen.css` to override the default Swagger UI styles.
 
@@ -25,14 +25,8 @@ In the `<head>` of your html, reference the location to your [theme].css. Make s
 #### Install with Bower
 
 ```shell
-$ bower install opw-swagger-ui-themes
+$ bower install swagger-ui-theme-rtd
 ```
-
-
-## Themes
-
-#### Read The Docs
-![Read The Doce Screenshot](https://github.com/petervandenhout/swagger-ui-themes/screenshots/flattop.png)
 
 ## Contributing
 

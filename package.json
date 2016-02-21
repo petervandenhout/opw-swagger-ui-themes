@@ -1,11 +1,11 @@
 {
-    "name": "opw-swagger-ui-themes",
-    "description": "Themes for Swagger UI",
+    "name": "swagger-ui-theme-rtd",
+    "description": "ReadTheDocs Theme for Swagger UI",
     "version": "0.0.1",
     "keywords": [ "theme", "swagger", "swagger UI", "ui", "rtd", "readtthedocs" ],
-    "homepage": "https://github.com/petervandenhout/opw-swagger-ui-themes",
+    "homepage": "https://github.com/petervandenhout/swagger-ui-theme-rtd",
     "bugs": {
-        "url": "https://github.com/petervandenhout/opw-swagger-ui-themes/issues"
+        "url": "https://github.com/petervandenhout/swagger-ui-theme-rtd/issues"
     },
     "author": {
         "name": "Peter van den Hout",
@@ -13,7 +13,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/petervandenhout/opw-swagger-ui-themes.git"
+        "url": "https://github.com/petervandenhout/swagger-ui-theme-rtd.git"
     },
     "contributors": [
     ],
