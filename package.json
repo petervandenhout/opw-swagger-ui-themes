@@ -1,7 +1,7 @@
 {
     "name": "swagger-ui-theme-rtd",
     "description": "ReadTheDocs Theme for Swagger UI",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "keywords": [ "theme", "swagger", "swagger UI", "ui", "rtd", "readtthedocs" ],
     "homepage": "https://github.com/petervandenhout/swagger-ui-theme-rtd",
     "bugs": {
@@ -21,14 +21,15 @@
     "dependencies": {
     },
     "devDependencies": {
-        "bower": "1.7.2",
-        "gulp": "3.9.0",
-        "gulp-sass": "2.1.1",
-        "gulp-notify": "2.2.0",
-        "gulp-concat": "2.6.0",
-        "gulp-uglify": "1.5.1"
+        "bower": "^1.7.7",
+        "gulp": "^3.9.1",
+        "gulp-sass": "^2.2.0",
+        "gulp-notify": "^2.2.0",
+        "gulp-cssnano": "^2.1.1",
+        "es6-promise": "^3.1.2",
+        "gulp-rename": "^1.2.2"
     },
     "engines": {
-        "node": ">=0.10.3"
+        "node": ">=0.12.7"
     }
 }

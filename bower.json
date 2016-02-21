@@ -1,6 +1,6 @@
 {
     "name": "swagger-ui-theme-rtd",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "homepage": "https://github.com/petervandenhout/swagger-ui-theme-rtd",
     "author": "Peter van den Hout <petervandenhout@outlook.com>",
     "description": "ReadTheDocs Theme for Swagger UI",

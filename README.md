@@ -1,6 +1,6 @@
 ## ReadTheDocs Theme for Swagger UI
 ---
-*Version 0.0.1*
+*Version 0.0.2*
 
 A ReadTheDocs theme for Swagger UI.
 
@@ -18,7 +18,7 @@ In the `<head>` of your html, reference the location to your [theme].css. Make s
 <head>
     ...after screen.css...
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" rel="stylesheet" type="text/css">
-    <link href='path/to/theme-rtd.css' media='screen' rel='stylesheet' type='text/css' />
+    <link href='path/to/theme-rtd.min.css' media='screen' rel='stylesheet' type='text/css' />
     ...
 </head>
 ```
