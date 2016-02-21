@@ -27,6 +27,9 @@ In the `<head>` of your html, reference the location to your [theme].css. Make s
 ```shell
 $ bower install swagger-ui-theme-rtd
 ```
+```shell
+$ bower info swagger-ui-theme-rtd
+```
 
 ## Contributing
 
