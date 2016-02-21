@@ -3,12 +3,15 @@
 //gulp plugins
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var notify = require('gulp-notify');
+var uglify = require('gulp-uglify');
+var concat = require('gulp-concat');
 var config = require('./gulp.config')();
 
 gulp.task('sass', function () {
-    gulp.src(config.src + 'styles/styles.scss')
+    gulp.src(config.src + 'rtd/theme-rtd.scss')
     .pipe(sass().on('error', handleErrors))
-    .pipe(gulp.dest(config.build + '/css'));
+    .pipe(gulp.dest(config.build));
 });
 
 gulp.task('build-web-dev', ['sass']);

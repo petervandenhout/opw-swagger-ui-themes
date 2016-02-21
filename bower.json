@@ -1,7 +1,7 @@
 {
     "name": "opw-swagger-ui-themes",
     "version": "1.0.0",
-    "homepage": "https://github.com/petervandenhout/swagger-ui-themes",
+    "homepage": "https://github.com/petervandenhout/opw-swagger-ui-themes",
     "author": "Peter van den Hout <petervandenhout@outlook.com>",
     "description": "Themes for Swagger UI",
     "main": [
@@ -23,8 +23,8 @@
         "test",
         "tests"
     ],
-    "dependencies": {        
+    "dependencies": {
     },
-    "devDependencies": {        
+    "devDependencies": {
     }
 }

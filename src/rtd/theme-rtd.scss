@@ -1,0 +1,23 @@
+﻿@charset "UTF-8";
+
+/*
+    Read The Docs Theme for Swagger UI
+    Author: Peter van den Hout
+    Url: https://github.com/petervandenhout/opw-swagger-ui-themes
+
+    Swagger UI Version: 2.1.4
+    Swagger UI: https://github.com/swagger-api/swagger-ui 
+*/
+
+@import "_vars";
+
+@import "specs.scss";
+@import "style.scss";
+
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" rel="stylesheet" type="text/css">
+
+h1, h2, h3, h4, h5, h6, legend {
+    margin-top: 0;
+    font-weight: 700;
+    font-family: $custom-font-family;
+}

@@ -1,0 +1,80 @@
+.swagger-section {
+
+    .swagger-ui-wrap {
+        font-family: $base-font-family;
+
+        b, strong {
+            font-family: $base-font-family;
+        }
+
+        pre {
+            font-family: $code-font-family;
+        }
+
+        .model-signature {
+            font-family: $base-font-family;
+        }
+
+        .markdown p code, .markdown li code {
+            font-family: $code-font-family;
+        }
+        /* JSONEditor specific styling */
+        .editor_holder {
+            font-family: $code-font-family;
+        }
+
+        h1 {
+            font-family: $base-font-family;
+        }
+
+        .code {
+            font-family: $code-font-family;
+        }
+
+        .markdown {
+            pre {
+                font-family: $code-font-family;
+            }
+        }
+
+        ul#resources {
+            font-family: $base-font-family;
+            font-size: 0.9em;
+
+            li.resource {
+                div.heading {
+                    h2 {
+                        font-family: $base-font-family;
+                    }
+                }
+
+                ul.endpoints {
+                    li.endpoint {
+                        ul.operations {
+                            li.operation {
+
+                                div.content {
+                                    div.response {
+                                        div.block {
+                                            pre {
+                                                font-family: $code-font-family;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        p#colophon {
+            font-family: $base-font-family;
+        }
+
+        .markdown ol, .markdown ul {
+            font-family: $base-font-family;
+        }
+    }
+}
