@@ -4,7 +4,7 @@
 
 A ReadTheDocs theme for Swagger UI.
 
-![ReadTheDocs Screenshot](https://github.com/petervandenhout/swagger-ui-theme-rtd/screenshots/theme-rtd.png)
+![ReadTheDocs Screenshot](https://github.com/petervandenhout/swagger-ui-theme-rtd/blob/master/screenshots/theme-rtd.png)
 
 You can find the Swagger UI project on GitHub [here](https://github.com/swagger-api/swagger-ui).
 
