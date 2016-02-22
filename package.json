@@ -1,7 +1,7 @@
 {
     "name": "swagger-ui-theme-rtd",
     "description": "ReadTheDocs Theme for Swagger UI",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "keywords": [ "theme", "swagger", "swagger UI", "ui", "rtd", "readtthedocs" ],
     "homepage": "https://github.com/petervandenhout/swagger-ui-theme-rtd",
     "bugs": {
