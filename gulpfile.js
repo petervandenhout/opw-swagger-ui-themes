@@ -27,7 +27,7 @@ gulp.task('build-sass', ['clean'], function () {
 });
 
 gulp.task('copy-demo', ['clean'], function () {
-    return gulp.src('lib/swagger-ui/dist/**')
+    return gulp.src('bower_components/swagger-ui/dist/**')
         .pipe(gulp.dest(config.demo).on('error', handleErrors));
 });
 
